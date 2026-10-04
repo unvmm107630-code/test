@@ -38,8 +38,19 @@ body{
     background-color: rgb(68, 65, 65);
     border-radius: 50%;
     position: relative;
+    cursor: pointer;
+}
+.menu:hover{
+    background-color: #5c5c5c;
+}
+.menulight{
+    background-color: #5c5c5c;
+}
+.menulight:hover{
+    background-color: #7a7a7a;
 }
 .popup{
+    position: absolute;
     bottom: 60px;
     left: 0px;  
     position: absolute;
@@ -48,4 +59,21 @@ body{
     background-color: #f2eaea;
     border-radius: 10px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+    transition: all 0.1s ease-in-out;
+}
+.popupclosed{
+    transition: all 0.1s ease-in-out;
+    position: absolute;
+    bottom: 60px;
+    left: 0px;  
+    position: absolute;
+    width: 270px;
+    height: 40px;
+    background-color: #f2eaea;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4)
+}
+.hide{
+    display: none;
+
 }
