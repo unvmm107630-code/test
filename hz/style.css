@@ -8,11 +8,11 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     background-color: rgb(74, 71, 71);
 }
 .tablet{
-    width: 512px;
+    width: 512px;   
     height: 768px;
     background-color: rgb(134, 137, 137);
     border: 1px solid #ccc;
@@ -20,25 +20,25 @@ body{
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: top;
     padding-bottom: 20px;
 }
 .panel{
-    width: 80%;
+    width: 100%;
     height: 60px;
     background-color: #000000;
-    border-radius: 30px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .menu{
-    width: 50px;
-    height: 50px;
-    background-color: rgb(68, 65, 65);
-    border-radius: 50%;
-    position: relative;
+    width: 250px; 
+    height: 40px; 
+    border-radius: 40px; 
     cursor: pointer;
+    color: white; 
+    text-align: center; 
 }
 .menu:hover{
     background-color: #5c5c5c;
@@ -50,26 +50,23 @@ body{
     background-color: #7a7a7a;
 }
 .popup{
-    position: absolute;
-    bottom: 60px;
+    bottom: 0px;
     left: 0px;  
-    position: absolute;
-    width: 270px;
+    width: 510px;
     height: 400px;
-    background-color: #f2eaea;
+    background-color: #000000;
     border-radius: 10px;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);  
     transition: all 0.1s ease-in-out;
+    transform:translateX(-130px);
 }
 .popupclosed{
     transition: all 0.1s ease-in-out;
-    position: absolute;
-    bottom: 60px;
+    bottom:0px;
     left: 0px;  
-    position: absolute;
-    width: 270px;
+    width: 510px; 
     height: 40px;
-    background-color: #f2eaea;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4)
 }
